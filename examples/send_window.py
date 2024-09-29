@@ -1,4 +1,4 @@
-from src.discord_winhook.screenshot import SSHook
+from discord_winhook.screenshot import SSHook
 
 import pygetwindow as gw
 hook = SSHook(

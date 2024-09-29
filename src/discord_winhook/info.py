@@ -2,7 +2,7 @@ import psutil
 import platform
 from datetime import datetime
 
-from src.discord_winhook.base import Hook
+from discord_winhook.base import Hook
 
 class MachineStatusHook(Hook):
     def run(self):

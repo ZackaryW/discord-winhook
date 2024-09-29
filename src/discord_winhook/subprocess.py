@@ -1,6 +1,6 @@
 import subprocess
 from discord_webhook import DiscordWebhook, DiscordEmbed
-from src.discord_winhook.base import Hook
+from discord_winhook.base import Hook
 
 class SubprocessHook(Hook):
     def __init__(self, url: str, command: str):

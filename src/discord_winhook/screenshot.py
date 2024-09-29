@@ -1,7 +1,7 @@
 
 import io
 import typing
-from src.discord_winhook.base import Hook
+from discord_winhook.base import Hook
 import pygetwindow as gw
 import pyautogui as pag
 from discord_webhook import DiscordWebhook
