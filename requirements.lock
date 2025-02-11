@@ -4,7 +4,7 @@
 # last locked with the following flags:
 #   pre: false
 #   features: []
-#   all-features: false
+#   all-features: true
 #   with-sources: false
 #   generate-hashes: false
 #   universal: false
@@ -20,7 +20,9 @@ idna==3.7
     # via requests
 mouseinfo==0.1.3
     # via pyautogui
-psutil==6.0.0
+pillow==11.1.0
+    # via discord-winhook
+psutil==6.1.1
     # via discord-winhook
 pyautogui==0.9.54
     # via discord-winhook
@@ -33,7 +35,8 @@ pyperclip==1.9.0
     # via mouseinfo
 pyrect==0.2.0
     # via pygetwindow
-pyscreeze==0.1.30
+pyscreeze==1.0.1
+    # via discord-winhook
     # via pyautogui
 pytweening==1.2.0
     # via pyautogui

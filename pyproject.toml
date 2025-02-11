@@ -1,15 +1,12 @@
 [project]
 name = "discord-winhook"
-version = "0.1.2"
+version = "0.2.0"
 description = "A library to simplify sending information updates from Windows systems through a Discord webhook"
 authors = [
     { name = "ZackaryW", email = "36378555+ZackaryW@users.noreply.github.com" }
 ]
 dependencies = [
-    "discord-webhook>=1.3.1",
-    "pygetwindow>=0.0.9",
-    "pyautogui>=0.9.54",
-    "psutil>=6.0.0",
+    "discord-webhook>=1.3.1"
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -17,6 +14,18 @@ requires-python = ">= 3.8"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[project.optional-dependencies]
+info = [
+    "psutil>=6.0.0"
+]
+
+screenshot = [
+    "pygetwindow>=0.0.9",
+    "pyautogui>=0.9.54",
+    "pyscreeze>=1.0.1",
+    "pillow>=11.1.0",
+]
 
 [tool.rye]
 managed = true

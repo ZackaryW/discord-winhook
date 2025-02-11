@@ -6,4 +6,4 @@ hook = SSHook(
     gw.getActiveWindow(),
 )
 
-hook.recur(5*60)
+hook.recurs(every=5*60, _block=True)
