@@ -1,3 +1,4 @@
+| this project is archived
 # discord-winhook
 A library to simplify sending information updates from Windows systems through a Discord webhook
 
